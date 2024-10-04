@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificação da Iris</title>
+</head>
+<body>
+    <h1>Classificação da Iris</h1>
+    <form action="/predict" method="POST" enctype="multipart/form-data">
+        <p>Sepal length<input type="text" name="sepal_l" value="6.2"></p>
+        <p>Sepal Width<input type="text" name="sepal_w" value="2.8"></p>
+        <p>Petal length<input type="text" name="petal_l" value="4.8"></p>
+        <p>Petal width<input type="text" name="petal_w" value="1.8"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
